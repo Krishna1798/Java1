@@ -50,6 +50,6 @@ public class Test {
         System.out.println("Total cost for scholarship "+ finalcost);
 
         }
-
+//sdfsf
 
 }
