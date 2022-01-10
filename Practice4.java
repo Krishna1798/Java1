@@ -14,6 +14,8 @@ public class Practice4 extends Thread{
     public static void main(String[] args){
         Practice4 p= new Practice4();
         p.start();
+        // It will through an exception because you are calling start() method more than one time
+        p.start();
     }
 }
 
