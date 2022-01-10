@@ -2,6 +2,7 @@ import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.apache.log4j.BasicConfigurator;
 
+//By extending Thread class
 public class Practice4 extends Thread{
     private static final Logger logger = LogManager.getLogger(Practice4.class);
 
@@ -16,6 +17,7 @@ public class Practice4 extends Thread{
     }
 }
 
+//By implementing Runnable interface
 class Practice5 implements Runnable{
     private static final Logger log = LogManager.getLogger(Practice5.class);
     @Override
@@ -31,6 +33,7 @@ class Practice5 implements Runnable{
     }
 }
 
+//
 class ThreadInterrupt extends Thread{
     private static final Logger log1 = LogManager.getLogger(ThreadInterrupt.class);
     @Override
